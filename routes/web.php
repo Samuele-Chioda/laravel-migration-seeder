@@ -3,6 +3,8 @@
 use App\Http\Controllers\Guest\PageController as GuestPageController;
 // use App\Http\Controllers\Admin\PageController as AdminPageController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\trainController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [GuestPageController::class, 'index'])->name('guest.home');
+
+Route::get('/train', [trainController::class, 'index'])->name('train.index');
+
