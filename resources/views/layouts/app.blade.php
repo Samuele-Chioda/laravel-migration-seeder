@@ -23,4 +23,4 @@
     @yield('custom-scripts')
 </body>
 </html>
-{{-- ! chiunque estendera' questo layout potra' inserire al posto di ogni yield('nome-posto') quello che vuole attraverso una chiamata section('nome-posto') --}}
+
