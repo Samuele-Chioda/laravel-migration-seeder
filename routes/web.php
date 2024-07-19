@@ -21,3 +21,4 @@ Route::get('/', [GuestPageController::class, 'index'])->name('guest.home');
 
 Route::get('/train', [trainController::class, 'index'])->name('train.index');
 
+// seconda rotta aggiunta

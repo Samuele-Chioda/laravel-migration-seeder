@@ -22,3 +22,5 @@
         @endforeach
     </section>
 @endsection
+
+{{-- pagina index collegata con rotta e controller --}}
